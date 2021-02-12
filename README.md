@@ -196,3 +196,14 @@ Test whether Kibana is running by visiting http://localhost:5601. An interface s
 ### Kibana interface
 Click on the gear icon found in the left vertical bar
 
+![gear](https://user-images.githubusercontent.com/76123658/107803713-ed180700-6d9d-11eb-971e-f793a662833d.png)
+
+Click on *index patterns*
+
+Enter name of Index pattern and click next step
+
+Select timestamp
+
+Click on the discover icon found in the left vertical bar
+
+Enter your search term 
