@@ -189,6 +189,6 @@ bin/kibana
 ```
 
 Test whether Kibana is running by visiting http://localhost:5601. An interface should display.
-
+![kibana interface](https://user-images.githubusercontent.com/76123658/107801258-cf956e00-6d9a-11eb-94a5-9bcdd195b3eb.png)
 
 
