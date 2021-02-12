@@ -6,7 +6,13 @@ The 3 primary functions of a search engine include:
 - **Indexing** the results
 - **Query processing**
 
-Modern search engines would make use of a wide variety of heuristics(Quality Score etc.) for ranking the search results, in order for the more relevant search results to appear earlier than others. However, for a more simplified search engine, we will be using Nutch, ElasticSearch and Kibana to generate.
+Modern search engines would make use of a wide variety of heuristics(Quality Score etc.) for ranking the search results, in order for the more relevant search results to appear earlier than others. 
+
+However, for a more simplified search engine, we will be using:
+- [Nutch](https://github.com/swx0/search-engine#nutch-117)
+- [ElasticSearch](https://github.com/swx0/search-engine#elasticsearch-742)
+- [Kibana](https://github.com/swx0/search-engine#kibana-742)
+
 ## Setup
 
 ### General
