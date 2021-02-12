@@ -30,7 +30,7 @@ Check if Java is installed
 ```
 java -version
 ```
-If Java not installed, 
+If Java not installed
 ```
 sudo apt-get install openjdk-11-jdk
 ```
@@ -163,6 +163,8 @@ bin/nutch invertlinks crawl/linkdb -dir crawl/segments
 ```
 
 ### ElasticSearch 7.4.2
+ElasticSearch is an open-source search and analytics engine built on Apache Lucene.
+
 Download ElasticSearch 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/elasticsearch-7-4-2)
 
 Start ElasticSearch
@@ -191,4 +193,6 @@ bin/kibana
 Test whether Kibana is running by visiting http://localhost:5601. An interface should display.
 ![kibana interface](https://user-images.githubusercontent.com/76123658/107801258-cf956e00-6d9a-11eb-94a5-9bcdd195b3eb.png)
 
+### Kibana interface
+Click on the gear icon found in the left vertical bar
 
