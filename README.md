@@ -200,10 +200,21 @@ Click on the gear icon found in the left vertical bar
 
 Click on *index patterns*
 
+![index patterns](https://user-images.githubusercontent.com/76123658/107804364-c60e0500-6d9e-11eb-9195-2ac142154393.png)
+
 Enter name of Index pattern and click next step
+
+![nutch next step](https://user-images.githubusercontent.com/76123658/107804408-d3c38a80-6d9e-11eb-91a3-e63b87fa6a27.png)
 
 Select timestamp
 
+![time filter](https://user-images.githubusercontent.com/76123658/107804206-952dd000-6d9e-11eb-88ea-6c9455b82139.png)
+
 Click on the discover icon found in the left vertical bar
 
-Enter your search term 
+![discover](https://user-images.githubusercontent.com/76123658/107804325-b7275280-6d9e-11eb-94d1-b2ad4e601a9f.png)
+
+Enter your search term and adjust time range 
+
+![search term](https://user-images.githubusercontent.com/76123658/107804263-a676dc80-6d9e-11eb-82bf-7ae325301dcc.png)
+
