@@ -185,7 +185,7 @@ Kibana offers a user interface to visualise and analyse data from ElasticSearch.
 
 Download Kibana 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/kibana-7-4-2)
 
-Run kibana.bat from kibana/bin/
+Run *kibana.bat* from kibana/bin/
 
 Test whether Kibana is running by visiting http://localhost:5601. An interface should display.
 ![kibana interface](https://user-images.githubusercontent.com/76123658/107801258-cf956e00-6d9a-11eb-94a5-9bcdd195b3eb.png)
