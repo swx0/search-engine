@@ -10,6 +10,7 @@ Modern search engines would make use of a wide variety of heuristics(Quality Sco
 ## Setup
 
 ### General
+#### Ubuntu setup
 For Windows users: Enable Windows Subsystem for Linux (WSL) and install Ubuntu from the Microsoft Store
 
 In order to access files from Windows, within the Ubuntu bash terminal, edit .bashrc
@@ -24,6 +25,24 @@ Source for change to be effective
 ```
 source ~/.bashrc
 ```
+#### Java
+Check if Java is installed
+```
+java -version
+```
+If Java not installed, 
+```
+sudo apt-get install openjdk-11-jdk
+```
+check if JAVA_HOME is set
+```
+echo $JAVA_HOME
+```
+If JAVA_HOME is not set
+```
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+```
+
 ### Nutch 1.17
 *[Official Nutch Tutorial](https://cwiki.apache.org/confluence/display/nutch/NutchTutorial)*
 
@@ -119,7 +138,7 @@ Update *crawldb* from the results
 ```
 bin/nutch updatedb crawl/crawldb $s1
 ```
-Repeat the above procedure for the next segments s2 and s3
+Repeat the above procedure for the next segments s2 and s3 to crawl through more URLs
 ```
 bin/nutch generate crawl/crawldb crawl/segments -topN 1000
 s2=`ls -d crawl/segments/2* | tail -1`
@@ -142,10 +161,34 @@ Invert and index all the links obtained
 ```
 bin/nutch invertlinks crawl/linkdb -dir crawl/segments
 ```
+
 ### ElasticSearch 7.4.2
 Download ElasticSearch 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/elasticsearch-7-4-2)
 
+Start ElasticSearch
+```
+bin/elasticsearch
+```
+
+Test whether ElasticSearch is running by visiting http://localhost:9200.
+
+Index all URLs and contents from Nutch to ElasticSearch
+```
+bin/nutch index crawl/crawldb/ -linkdb crawl/linkdb/ $s1 -filter -normalize -deleteGone
+bin/nutch index crawl/crawldb/ -linkdb crawl/linkdb/ $s2 -filter -normalize -deleteGone
+bin/nutch index crawl/crawldb/ -linkdb crawl/linkdb/ $s3 -filter -normalize -deleteGone
+```
 ### Kibana 7.4.2
 Kibana offers a user interface to visualise and analyse data from ElasticSearch. 
 
-Dowload Kibana 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/kibana-7-4-2)
+Download Kibana 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/kibana-7-4-2)
+
+Start Kibana
+```
+bin/kibana
+```
+
+Test whether Kibana is running by visiting http://localhost:5601. An interface should display.
+
+
+
