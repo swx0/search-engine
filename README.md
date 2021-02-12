@@ -206,7 +206,7 @@ Enter name of Index pattern and click next step
 
 ![nutch next step](https://user-images.githubusercontent.com/76123658/107804408-d3c38a80-6d9e-11eb-91a3-e63b87fa6a27.png)
 
-Select timestamp
+Select Time Filter
 
 ![time filter](https://user-images.githubusercontent.com/76123658/107804206-952dd000-6d9e-11eb-88ea-6c9455b82139.png)
 
