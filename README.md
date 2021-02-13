@@ -173,10 +173,7 @@ ElasticSearch is an open-source search and analytics engine built on Apache Luce
 
 Download ElasticSearch 7.4.2 (Windows) [here](https://www.elastic.co/downloads/past-releases/elasticsearch-7-4-2)
 
-Start ElasticSearch
-```
-bin/elasticsearch
-```
+Run *elasticsearch.bat* from elasticsearch/bin/
 
 Test whether ElasticSearch is running by visiting http://localhost:9200.
 
