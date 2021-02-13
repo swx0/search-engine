@@ -199,8 +199,6 @@ Test whether Kibana is running by visiting http://localhost:5601. An interface s
 ### Kibana interface
 Click on the gear icon found in the left vertical bar
 
-![gear](https://user-images.githubusercontent.com/76123658/107803713-ed180700-6d9d-11eb-971e-f793a662833d.png)
-
 Click on *index patterns*
 
 ![index patterns](https://user-images.githubusercontent.com/76123658/107804364-c60e0500-6d9e-11eb-9195-2ac142154393.png)
@@ -214,8 +212,6 @@ Select Time Filter
 ![time filter](https://user-images.githubusercontent.com/76123658/107804206-952dd000-6d9e-11eb-88ea-6c9455b82139.png)
 
 Click on the discover icon found in the left vertical bar
-
-![discover](https://user-images.githubusercontent.com/76123658/107804325-b7275280-6d9e-11eb-94d1-b2ad4e601a9f.png)
 
 Enter your search term and adjust time range 
 
