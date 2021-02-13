@@ -193,7 +193,7 @@ Run *kibana.bat* from kibana/bin/
 Test whether Kibana is running by visiting http://localhost:5601. An interface should display.
 ![kibana interface](https://user-images.githubusercontent.com/76123658/107801258-cf956e00-6d9a-11eb-94a5-9bcdd195b3eb.png)
 
-### Kibana interface
+### Quick introduction on Kibana interface
 Click on the gear icon found in the left vertical bar
 
 Click on *index patterns*
@@ -208,9 +208,10 @@ Select Time Filter
 
 ![time filter](https://user-images.githubusercontent.com/76123658/107804206-952dd000-6d9e-11eb-88ea-6c9455b82139.png)
 
-Click on the discover icon found in the left vertical bar
+Click on the Discover icon found in the left vertical bar
 
 Enter your search term and adjust time range 
 
 ![search term](https://user-images.githubusercontent.com/76123658/107804263-a676dc80-6d9e-11eb-82bf-7ae325301dcc.png)
 
+**[More information](https://www.elastic.co/webinars/getting-started-kibana) on the use of Kibana**
